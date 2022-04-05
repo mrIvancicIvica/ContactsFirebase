@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 
 const DetailsPage = () => {
-  const { ref, get, getDatabase, deleteContact, favContact, updateContact } =
+  const { ref, get, getDatabase, deleteContact } =
     useContext(UserContext);
 
   const [contact, setContact] = useState([]);
